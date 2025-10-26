@@ -1,0 +1,160 @@
+<!-- 核心元标签：标题和描述 -->
+<title>格林（Green）- AI商业应用顾问与培训师</title>
+<meta name="description" content="格林（Green） | 商业战略与AI应用专家。为企业提供AI转型培训、大语言模型商业落地咨询，赋能团队用技术驱动增长。">
+
+<!-- Open Graph 协议标签 (用于Facebook, LinkedIn, 微信等) -->
+<meta property="og:title" content="格林（Green） - AI商业应用顾问与培训师">
+<meta property="og:description" content="商业战略与AI应用专家。为企业提供AI转型培训、大语言模型商业落地咨询。">
+<meta property="og:image" content="https://picsum.photos/seed/portrait/1200/630">
+<meta property="og:url" content="https://www.yourbusiness.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card 标签 -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="格林（Green） - AI商业应用顾问与培训师">
+<meta name="twitter:description" content="商业战略与AI应用专家。为企业提供AI转型培训、大语言模型商业落地咨询。">
+<meta name="twitter:image" content="https://picsum.photos/seed/portrait/1200/630">
+
+<!-- 引入Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- 引入Font Awesome图标 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+    .gradient-bg {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .hover-lift:hover {
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+    }
+</style>
+
+
+<!-- 英雄区域 -->
+<header class="gradient-bg text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+        <img src="./assets/linwb.jpg"  alt="格林（Green）的个人头像" class="rounded-full w-32 h-32 mx-auto mb-6 border-4 border-white">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">格林（Green）</h1>
+        <p class="text-xl md:text-2xl mb-8">用商业思维赋能AI应用</p>
+        <div class="flex justify-center space-x-4">
+            <a href="#contact" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">开启合作</a>
+            <a href="#projects" class="border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-indigo-600 transition">查看项目</a>
+        </div>
+    </div>
+</header>
+
+<!-- 关于我部分 -->
+<section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">关于我</h2>
+        <div class="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
+            <p class="mb-4">我是一名专注于AI应用落地与赋能的自由职业顾问。拥有超过8年的商业分析和战略咨询经验，现在致力于帮助开发者和企业利用AI技术解决实际商业问题，提升效率与创新能力。</p>
+            <p class="mb-4">我相信，技术本身不是终点，实现商业成功才是。我的使命是成为技术与商业之间的桥梁。</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                <div class="text-center p-4">
+                    <i class="fas fa-chart-line text-indigo-500 text-3xl mb-3"></i>
+                    <h3 class="font-semibold mb-2">商业战略</h3>
+                    <p class="text-sm text-gray-500">从商业视角审视技术价值</p>
+                </div>
+                <div class="text-center p-4">
+                    <i class="fas fa-robot text-indigo-500 text-3xl mb-3"></i>
+                    <h3 class="font-semibold mb-2">AI应用</h3>
+                    <p class="text-sm text-gray-500">让前沿AI技术为企业创造真实效益</p>
+                </div>
+                <div class="text-center p-4">
+                    <i class="fas fa-users text-indigo-500 text-3xl mb-3"></i>
+                    <h3 class="font-semibold mb-2">团队赋能</h3>
+                    <p class="text-sm text-gray-500">培养团队掌握AI时代的核心竞争力</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 服务部分 -->
+<section id="services" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">我的服务</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-md hover-lift">
+                <i class="fas fa-graduation-cap text-indigo-500 text-3xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-3">企业培训</h3>
+                <ul class="text-gray-600 space-y-2">
+                <li><i class="fas fa-check text-green-500 mr-2"></i>AI时代的商业思维</li>
+                <li><i class="fas fa-check text-green-500 mr-2"></i>面向非技术人员的AI应用</li>
+                <li><i class="fas fa-check text-green-500 mr-2"></i>LLM商业落地实践</li>
+            </ul>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md hover-lift">
+            <i class="fas fa-hands-helping text-indigo-500 text-3xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-3">个人赋能</h3>
+            <p class="text-gray-600">1对1教练服务，帮助开发者、产品经理提升项目的商业价值与影响力。</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md hover-lift">
+            <i class="fas fa-lightbulb text-indigo-500 text-3xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-3">项目咨询</h3>
+            <p class="text-gray-600">为初创公司或团队提供AI产品的商业模式设计、市场定位与增长策略建议。</p>
+        </div>
+    </div>
+</section>
+
+<!-- 项目部分 -->
+<section id="projects" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">精选项目</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="border border-gray-200 rounded-xl overflow-hidden hover-lift">
+                <img src="https://picsum.photos/seed/business/600/400" alt="AI商业案例分析工具的项目截图" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">AI商业案例生成器</h3>
+                    <p class="text-gray-600 mb-4">一个使用大语言模型API自动为不同行业生成结构化商业案例分析的工具。</p>
+                    <a href="#" class="text-indigo-600 font-semibold hover:text-indigo-800 transition">查看详情 →</a>
+                </div>
+            </div>
+            <div class="border border-gray-200 rounded-xl overflow-hidden hover-lift">
+                <img src="https://picsum.photos/seed/prompt/600/400" alt="商业提示词工程指南封面" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">商业提示词工程指南</h3>
+                    <p class="text-gray-600 mb-4">一份关于如何为市场营销、运营、战略等不同商业场景设计高效Prompt的开源指南与模板库。</p>
+                    <a href="#" class="text-indigo-600 font-semibold hover:text-indigo-800 transition">查看详情 →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 联系我部分 -->
+<section id="contact" class="py-16 gradient-bg text-white">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6">随时与我连接</h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">我对探讨AI与商业结合的无限可能充满热情。无论您是想邀请培训、咨询，还是仅仅交流想法，都非常欢迎！</p>
+        <div class="flex flex-wrap justify-center gap-6 mb-8">
+            <a href="mailto:your.business@email.com" class="flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-3 rounded-lg hover:bg-white/20 transition">
+                <i class="fas fa-envelope"></i>
+                <span>发送邮件</span>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" class="flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-3 rounded-lg hover:bg-white/20 transition">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/yourusername" class="flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-3 rounded-lg hover:bg-white/20 transition">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+        </div>
+        <p class="text-sm opacity-80">© 2025 格林（Green）. 保留所有权利。</p>
+    </div>
+</section>
+
+<script>
+    // 平滑滚动
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
