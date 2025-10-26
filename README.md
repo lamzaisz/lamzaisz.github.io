@@ -1,2 +1,2 @@
-# linwb.github.io
+# lamzaisz.github.io
 个人主页
